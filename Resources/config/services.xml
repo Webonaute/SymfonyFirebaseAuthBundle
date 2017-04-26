@@ -1,0 +1,15 @@
+<services>
+    <service id="webonaute.firebase.security.authentication.listener"
+             class="Webonaute\SymfonyFirebaseAuthBundle\Security\Firewall\FirebaseListener"
+             public="false"
+             abstract="true">
+
+        <argument type="service" id="security.token_storage"/>
+        <argument type="service" id="security.authentication.manager"/>
+        <argument/> <!-- Provider-shared Key -->
+        <argument type="service" id="lexik_jwt_authentication.handler.authentication_success"/>
+        <argument type="service" id="lexik_jwt_authentication.handler.authentication_failure"/>
+        <argument/> <!-- Options -->
+        <argument type="service" id="logger" on-invalid="null"/>
+    </service>
+</services>

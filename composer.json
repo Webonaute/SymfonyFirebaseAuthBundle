@@ -1,0 +1,40 @@
+{
+  "name": "webonaute/symfony-firebase-auth-bundle",
+  "description": "Allow to validate a token from firebase connection.",
+  "type": "symfony-bundle",
+  "keywords": [
+    "development",
+    "jwt",
+    "firebase",
+    "symfony",
+    "symfony2",
+    "symfony3",
+    "auth",
+    "bundle",
+    "token"
+  ],
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Mathieu Delisle",
+      "email": "mdelisle@webonaute.ca"
+    }
+  ],
+  "support": {
+    "email": "mdelisle@webonaute.ca",
+    "issue": "https://github.com/Webonaute/SymfonyFirebaseAuthBundle/issues",
+    "source": "https://github.com/Webonaute/SymfonyFirebaseAuthBundle"
+  },
+  "require": {
+    "php": ">=5.3",
+    "symfony/framework-bundle": ">=2.3"
+  },
+  "require-dev": {
+    "phpunit/phpunit": "^6.0",
+    "symfony/phpunit-bridge": "dev-master"
+  },
+  "autoload": {
+    "psr-0": {"Webonaute\\SymfonyFirebaseAuthBundle": ""}
+  },
+  "target-dir": "Webonaute/SymfonyFirebaseAuthBundle"
+}
